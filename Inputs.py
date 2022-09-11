@@ -1,0 +1,11 @@
+berlin = input("Nice city")
+germany = input("Beutiful country")
+charite = input("Bigest hospital in berlin")
+test1 = input(9)
+test2 = input(3)
+test3 = input(3+5)
+
+print(berlin)
+print(germany)
+print(germany,charite)
+print(int(test1)+int(test3))

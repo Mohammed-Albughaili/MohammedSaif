@@ -1,0 +1,25 @@
+list1 = list(range(3,15))
+print(list1)
+print("")
+
+list2 = list(range(10))
+print(list2)
+print("")
+
+list3 = list(range(2,10,2))
+print(list3)
+print("")
+
+list1.remove(12)
+print(list1)
+print("")
+list2.remove(5)
+print(list2)
+print("")
+list3.remove(list3[2])
+print(list3)
+print("")
+
+Input1 = int(input("Give me the remove entry of list1: "))
+Input2 = int(input("Give me the remove entry of list2: "))
+Input3 = int(input("Give me the remove entry of list3: "))

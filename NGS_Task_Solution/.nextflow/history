@@ -1,0 +1,59 @@
+2022-09-15 15:13:31	-	crazy_feynman	-	70702dc216d6ed3961de049e59a73a03	02e2dd17-37ab-4101-a8a6-725976117f06	nextflow run task_solution.nf
+2022-09-15 15:22:24	-	fervent_bohr	-	70702dc216d6ed3961de049e59a73a03	a30beb7a-4d02-414f-81a7-e82bae751ba4	nextflow run task_solution.nf
+2022-09-15 15:22:49	-	backstabbing_watson	-	70702dc216d6ed3961de049e59a73a03	41cd597e-c438-43c8-9bfb-83e5b28235a3	nextflow run task_solution.nf
+2022-09-15 15:26:29	-	reverent_carson	-	70702dc216d6ed3961de049e59a73a03	e0a09723-e9d6-4251-b3be-1e2eb6f0d4a5	nextflow run task_solution.nf
+2022-09-15 15:26:52	-	hopeful_dijkstra	-	70702dc216d6ed3961de049e59a73a03	5796b9a9-e25a-4439-88a9-b89716c0dbe1	nextflow run task_solution.nf
+2022-09-15 15:29:41	-	nice_goldwasser	-	70702dc216d6ed3961de049e59a73a03	1abc2f7e-1c10-4f87-a019-2d7678478e32	nextflow run task_solution.nf
+2022-09-15 19:13:32	-	silly_engelbart	-	70702dc216d6ed3961de049e59a73a03	d3210a86-80cb-4759-a82c-e6a3cdde48dd	nextflow run task_solution.nf
+2022-09-15 19:14:35	-	sleepy_torvalds	-	70702dc216d6ed3961de049e59a73a03	c6894713-afb4-47a7-8695-d738800a8216	nextflow run task_solution.nf
+2022-09-15 19:18:46	-	nasty_church	-	70702dc216d6ed3961de049e59a73a03	f224398c-8e73-4308-b297-970a735ffa00	nextflow run task_solution.nf
+2022-09-15 19:20:06	-	curious_almeida	-	70702dc216d6ed3961de049e59a73a03	770eee6a-14db-4010-86d0-fd0582522719	nextflow run task_solution.nf
+2022-09-15 19:20:38	-	goofy_williams	-	70702dc216d6ed3961de049e59a73a03	8035536f-6262-4f38-baf3-9b619673cb37	nextflow run task_solution.nf
+2022-09-15 19:22:11	-	determined_hawking	-	2dd24636031279b9c6938ca85b5b611f	dd5f5fbf-3c01-4509-90e9-00cbf9f00c68	nextflow run task_solution.nf
+2022-09-15 19:24:52	-	amazing_lichterman	-	e0f037e68f5c33b83840306cfb4c2881	521a4ce5-7e24-4d83-9c7c-313e83a6f60a	nextflow run task_solution.nf
+2022-09-15 19:25:17	-	modest_meitner	-	f2cd935eda58ebcac917e79438e1e2f5	794f6d5c-9110-4867-b067-c493ab7dd26e	nextflow run task_solution.nf
+2022-09-15 19:25:51	-	angry_fermi	-	d40d7e9d3de67c5fade743309cd326a9	f7c0c6a8-03c9-4407-a03f-96ca5b3d9cbd	nextflow run task_solution.nf
+2022-09-15 19:26:23	-	hungry_rosalind	-	9d8dc8e2bbcc4b72c30b0751bf7e689d	bdb185ef-bc20-4ee2-9dba-f72fc8334d73	nextflow run task_solution.nf
+2022-09-15 19:27:00	6.3s	golden_wilson	ERR	80f2d114a970357172d6f8eca38ff990	f5435c7c-6c22-4431-b9e4-581868c082b9	nextflow run task_solution.nf
+2022-09-15 19:43:59	6.2s	ridiculous_cori	ERR	3acb3e42d2be11815bd5339e1c330389	28a65214-0cd9-4475-b8d5-f08078b47bce	nextflow run task_solution.nf
+2022-09-15 19:45:58	6.1s	hopeful_goldwasser	ERR	3acb3e42d2be11815bd5339e1c330389	057297df-5403-4dce-8b08-ef40d452d333	nextflow run task_solution.nf
+2022-09-15 19:46:11	5.5s	fabulous_curie	ERR	562327f0402035308ecdde2742659749	0e67ea96-c785-4090-ad54-58a440ff6841	nextflow run task_solution.nf
+2022-09-15 20:01:22	46.1s	intergalactic_brenner	ERR	5cff010f1b58dc36e0f37bfd4137fa07	1edadb39-759d-4e0a-9eb5-183847a93bf2	nextflow run task_solution.nf
+2022-09-15 20:09:05	-	nasty_tesla	-	2fd0194cfd27a5e47ebad576005139b7	29c48209-cefd-4999-b7da-5787e57f483d	nextflow run task_solution.nf
+2022-09-15 20:13:25	46.6s	romantic_aryabhata	ERR	ed5f52343e59217cb0a59945f6853f26	3e1a9539-e444-4d4d-8f9b-081cb3144ee0	nextflow run task_solution.nf
+2022-09-15 20:14:38	4.1s	disturbed_caravaggio	ERR	c1d6b420511f5dda1aa550b4ae6c2ebc	b66f70db-1fb5-470e-8e98-b39b0eaf3b83	nextflow run task_solution.nf
+2022-09-15 20:15:10	55.5s	ecstatic_keller	ERR	24a7587aaf0b2bfc60aefa359a2f8024	4a9508d2-7370-4c5b-bb7a-5ab389a65b80	nextflow run task_solution.nf
+2022-09-15 20:18:31	48.6s	berserk_torricelli	ERR	a533eea0c7b142b32fd2f46d57d81333	7ae150f4-cd1d-4362-8e3d-044e722d5c61	nextflow run task_solution.nf
+2022-09-15 20:20:25	44.7s	tiny_brattain	ERR	ecd58b78d915178c30c98c21cbee4fb1	3590cd3f-a367-4f41-9a0c-f20637728df0	nextflow run task_solution.nf
+2022-09-15 20:23:57	52.8s	zen_poitras	ERR	2e5fb78cfd45cfb4229d55860f1abf2c	553c7e11-2049-4ffc-928f-fa5b3569110e	nextflow run task_solution.nf
+2022-09-15 20:26:45	46.1s	voluminous_brenner	OK	611b1cb215e6173be962e6282da9df77	314cd805-8036-413c-935d-db3d87646301	nextflow run task_solution.nf
+2022-09-15 20:37:40	8s	fervent_kowalevski	ERR	245ba0705ffe3cc1b61bb6ef101dd2de	13495343-87e2-4c50-be6a-51b81a34af56	nextflow run task_solution.nf
+2022-09-15 20:41:35	6.6s	prickly_sanger	ERR	1850b5a0d2f2b2e1ea7ea92e894709d2	0647c065-e6a2-4f2a-99fd-c8b71a5d2ee5	nextflow run task_solution.nf
+2022-09-15 20:43:48	6.5s	silly_shirley	ERR	5f6a0253895d2a0622ac34023b109d50	a7be5a03-20df-4d83-8ad9-c3cdb6236541	nextflow run task_solution.nf
+2022-09-15 20:45:52	7s	compassionate_mandelbrot	ERR	1850b5a0d2f2b2e1ea7ea92e894709d2	6fbba72e-56c1-4ca2-b273-8285baa41512	nextflow run task_solution.nf
+2022-09-15 20:58:35	-	lethal_sax	-	19929719406a86ad037dd9e620612f63	e204b737-424d-4466-a2bc-7e353f62486e	nextflow run task_solution.nf
+2022-09-15 20:59:18	6.1s	magical_legentil	ERR	1850b5a0d2f2b2e1ea7ea92e894709d2	fa84bd43-8a18-4fe7-b839-ea72afb4df9a	nextflow run task_solution.nf
+2022-09-15 21:13:27	8s	gigantic_hypatia	ERR	414ccd0b55df2d356b35885b123f8b85	15c9ca82-538b-47bf-818a-3e5d63835d7a	nextflow run task_solution.nf
+2022-09-16 08:52:33	6.9s	distracted_bhaskara	ERR	414ccd0b55df2d356b35885b123f8b85	b7b3a03c-1f83-460f-a39c-a3f4d75c03a9	nextflow run task_solution.nf
+2022-09-16 09:10:17	6.9s	cheeky_watson	ERR	414ccd0b55df2d356b35885b123f8b85	00d8784f-57c5-4e5f-905c-ff70830a8963	nextflow run task_solution.nf
+2022-09-16 09:35:33	6.7s	trusting_wiles	ERR	414ccd0b55df2d356b35885b123f8b85	556a6819-6b25-4400-a788-71118913b45d	nextflow run task_solution.nf -profile singularity
+2022-09-16 09:44:16	7.6s	nasty_brenner	ERR	414ccd0b55df2d356b35885b123f8b85	28e276a7-283e-4a63-b0e0-81206ec4921d	nextflow run task_solution.nf -profile singularity
+2022-09-16 10:45:36	8s	naughty_bernard	ERR	4c6d4ea883fd1a767cbb3c5a2c37e8d5	7f8eb6bb-b7d3-40b0-87b0-85003c10ec5c	nextflow run task_solution.nf -profile singularity
+2022-09-16 10:46:34	7.7s	hopeful_fermat	ERR	4c6d4ea883fd1a767cbb3c5a2c37e8d5	ca7815a6-ddd7-4d69-90c7-ed61f9997833	nextflow run task_solution.nf -profile singularity
+2022-09-16 11:01:04	7.8s	boring_faggin	ERR	0cf624cd8bc710d35c66a234b9da00b4	c31a9f90-b2f1-4dc5-b613-ca2d8748b3f7	nextflow run task_solution.nf -profile singularity
+2022-09-16 11:13:55	7s	shrivelled_bhabha	ERR	f33dd19798a0a4c741cf59ceb92b0681	f47d0de3-77fb-4bf3-8e75-5e3c68056668	nextflow run task_solution.nf -profile singularity
+2022-09-16 11:15:06	-	high_leavitt	-	d546255f8ddfe6e2495ca89a0bef954a	b742a2c5-f4dd-4285-8654-b28383f466cb	nextflow run task_solution.nf -profile singularity
+2022-09-16 11:15:40	7.2s	voluminous_gautier	ERR	a5d3a6744cca130ab612efd11e1fe729	e9ecde68-03ed-4374-87c4-0716a2631fc9	nextflow run task_solution.nf -profile singularity
+2022-09-16 11:22:01	7.8s	sick_wozniak	ERR	05fdb2aab5c4fd5df938145dc6f196d5	d3730e30-9550-44e9-a99f-f6bc40ad636e	nextflow run task_solution.nf -profile singularity
+2022-09-16 11:22:52	7.2s	nostalgic_baekeland	ERR	0f11853e04f0f244b657d08818fd666e	65590152-8bf2-40be-aa59-0ff92c0e8a0c	nextflow run task_solution.nf -profile singularity
+2022-09-16 11:26:15	-	desperate_fermat	-	117d7ad69f3152fc9d5287349099c337	a4a20000-ee83-4a17-b4ad-7a2251b6e9e0	nextflow run task_solution.nf -profile singularity
+2022-09-16 11:27:07	6.7s	awesome_yonath	ERR	a38335af40702bbaf6fd576624053db6	d4066487-3bcf-4720-9a81-5a9bfcad6ab7	nextflow run task_solution.nf -profile singularity
+2022-09-16 11:33:44	6.4s	jolly_woese	ERR	bd65f0b98dd72f0c0b4bc5837c0e03b9	5f1796f1-9124-4ded-b6fd-5e55d965811c	nextflow run task_solution.nf
+2022-09-16 12:18:24	6.3s	cranky_linnaeus	ERR	4a6c0ac82bfcd8d427247d6366b4654a	c23888ea-e938-4d2c-8dfc-1023a19643d0	nextflow run task_solution.nf -profile singularity
+2022-09-16 12:23:03	5.5s	happy_majorana	ERR	4a6c0ac82bfcd8d427247d6366b4654a	64c599b0-a37e-441e-81e7-caab7f01ca14	nextflow run task_solution.nf -profile singularity
+2022-09-16 13:51:03	10.1s	chaotic_ekeblad	ERR	e28fdef089788a77579fd0d899c29584	98f96bc9-950e-4a06-9478-a96e740c11e0	nextflow run task_solution.nf -profile singularity
+2022-09-16 15:28:52	7.3s	golden_cuvier	ERR	e28fdef089788a77579fd0d899c29584	5981e996-4b36-427d-8517-4d486cadfa8b	nextflow run task_solution.nf -profile singularity
+2022-09-16 15:37:23	25.4s	lethal_joliot	OK	e28fdef089788a77579fd0d899c29584	8284ed14-4a15-4373-ba6a-9d060739bf31	nextflow run task_solution.nf -profile singularity
+2022-09-16 19:35:00	7.6s	happy_carson	OK	e28fdef089788a77579fd0d899c29584	64a868f2-aae8-4a9f-b0b7-d55efcc53125	nextflow run task_solution.nf -profile singularity
+2022-09-16 19:44:30	7.2s	wise_jepsen	OK	e28fdef089788a77579fd0d899c29584	752ac486-f8d8-4396-a002-73bf54fefdf1	nextflow run task_solution.nf -profile singularity
+2022-09-16 19:45:32	6s	confident_noether	OK	40aff2ba8b71260de386735b5cd4c69c	448b4d62-801c-406e-b630-a293b804b000	nextflow run task_solution.nf -profile singularity

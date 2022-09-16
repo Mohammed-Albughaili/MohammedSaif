@@ -1,0 +1,74 @@
+Sep-16 19:34:58.806 [main] DEBUG nextflow.cli.Launcher - $> nextflow run task_solution.nf -profile singularity
+Sep-16 19:34:59.075 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.6
+Sep-16 19:34:59.134 [main] INFO  nextflow.cli.CmdRun - Launching `task_solution.nf` [happy_carson] - revision: e28fdef089
+Sep-16 19:34:59.171 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/cq/Linux/MohammedSaif/NGS_LEKs/nextflow.config
+Sep-16 19:34:59.172 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/cq/Linux/MohammedSaif/NGS_LEKs/nextflow.config
+Sep-16 19:34:59.222 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `singularity`
+Sep-16 19:35:00.507 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [singularity]
+Sep-16 19:35:00.562 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/cq/.nextflow/plugins
+Sep-16 19:35:00.566 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Sep-16 19:35:00.605 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Sep-16 19:35:00.607 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Sep-16 19:35:00.616 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Sep-16 19:35:00.639 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Sep-16 19:35:00.752 [main] DEBUG nextflow.Session - Session uuid: 64a868f2-aae8-4a9f-b0b7-d55efcc53125
+Sep-16 19:35:00.752 [main] DEBUG nextflow.Session - Run name: happy_carson
+Sep-16 19:35:00.754 [main] DEBUG nextflow.Session - Executor pool size: 4
+Sep-16 19:35:00.856 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.6 build 5660
+  Created: 21-12-2021 16:55 UTC (17:55 CEST)
+  System: Linux 5.15.0-46-generic
+  Runtime: Groovy 3.0.9 on OpenJDK 64-Bit Server VM 11.0.16+8-post-Ubuntu-0ubuntu120.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 1890@bioinfobox [127.0.1.1]
+  CPUs: 4 - Mem: 1.9 GB (62.8 MB) - Swap: 923.3 MB (920.7 MB)
+Sep-16 19:35:00.904 [main] DEBUG nextflow.Session - Work-dir: /home/cq/Linux/MohammedSaif/NGS_LEKs/work [ext2/ext3]
+Sep-16 19:35:00.905 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/cq/Linux/MohammedSaif/NGS_LEKs/bin
+Sep-16 19:35:00.918 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Sep-16 19:35:00.942 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Sep-16 19:35:01.018 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Sep-16 19:35:01.189 [main] DEBUG nextflow.Session - Session start invoked
+Sep-16 19:35:02.521 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Sep-16 19:35:02.774 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 19:35:02.774 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 19:35:02.786 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Sep-16 19:35:02.800 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=1.9 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Sep-16 19:35:02.855 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Sep-16 19:35:03.015 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 19:35:03.015 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 19:35:03.033 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 19:35:03.033 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 19:35:03.059 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 19:35:03.060 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 19:35:03.069 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 19:35:03.069 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 19:35:03.077 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: allData, combined_fasta, trimal, mafftAlignment, downloadFileGB
+Sep-16 19:35:03.079 [main] DEBUG nextflow.Session - Ignite dataflow network (5)
+Sep-16 19:35:03.079 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > downloadFileGB
+Sep-16 19:35:03.081 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > combined_fasta
+Sep-16 19:35:03.095 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > allData
+Sep-16 19:35:03.097 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > mafftAlignment
+Sep-16 19:35:03.098 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > trimal
+Sep-16 19:35:03.099 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Sep-16 19:35:03.099 [main] DEBUG nextflow.Session - Session await
+Sep-16 19:35:03.259 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > downloadFileGB
+Sep-16 19:35:03.360 [Actor Thread 3] DEBUG n.util.BlockingThreadExecutorFactory - Thread pool name=FileTransfer; maxThreads=12; maxQueueSize=36; keepAlive=1m
+Sep-16 19:35:03.450 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-16 19:35:03.461 [Task submitter] INFO  nextflow.Session - [8f/df2644] Submitted process > combined_fasta
+Sep-16 19:35:05.624 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: combined_fasta; status: COMPLETED; exit: 0; error: -; workDir: /home/cq/Linux/MohammedSaif/NGS_LEKs/work/8f/df2644df2fe322bafd7dd4b62c8e58]
+Sep-16 19:35:05.771 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-16 19:35:05.785 [Task submitter] INFO  nextflow.Session - [2e/3e3907] Submitted process > allData
+Sep-16 19:35:05.873 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: allData; status: COMPLETED; exit: 0; error: -; workDir: /home/cq/Linux/MohammedSaif/NGS_LEKs/work/2e/3e39079561172e5bba499886f66f62]
+Sep-16 19:35:05.934 [Actor Thread 2] DEBUG nextflow.container.SingularityCache - Singularity found local store for image=https://depot.galaxyproject.org/singularity/mafft%3A7.490--hec16e2b_1; path=/home/cq/Linux/MohammedSaif/NGS_LEKs/singularity_containers/depot.galaxyproject.org-singularity-mafft%3A7.490--hec16e2b_1.img
+Sep-16 19:35:05.989 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-16 19:35:05.995 [Task submitter] INFO  nextflow.Session - [a4/6e2257] Submitted process > mafftAlignment
+Sep-16 19:35:06.986 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: mafftAlignment; status: COMPLETED; exit: 0; error: -; workDir: /home/cq/Linux/MohammedSaif/NGS_LEKs/work/a4/6e2257a8d392079634cb2aa6f53bd8]
+Sep-16 19:35:06.999 [Actor Thread 2] DEBUG nextflow.container.SingularityCache - Singularity found local store for image=https://depot.galaxyproject.org/singularity/trimal%3A1.4.1--h9f5acd7_6; path=/home/cq/Linux/MohammedSaif/NGS_LEKs/singularity_containers/depot.galaxyproject.org-singularity-trimal%3A1.4.1--h9f5acd7_6.img
+Sep-16 19:35:07.027 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Sep-16 19:35:07.030 [Task submitter] INFO  nextflow.Session - [7d/da9a88] Submitted process > trimal
+Sep-16 19:35:07.380 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: trimal; status: COMPLETED; exit: 0; error: -; workDir: /home/cq/Linux/MohammedSaif/NGS_LEKs/work/7d/da9a88e3693fe148d90f720f7b0b6e]
+Sep-16 19:35:07.401 [main] DEBUG nextflow.Session - Session await > all process finished
+Sep-16 19:35:07.481 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Sep-16 19:35:07.509 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=4; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=3.3s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Sep-16 19:35:07.615 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Sep-16 19:35:07.650 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

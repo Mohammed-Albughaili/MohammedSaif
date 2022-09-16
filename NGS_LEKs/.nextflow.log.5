@@ -1,0 +1,78 @@
+Sep-16 11:26:14.220 [main] DEBUG nextflow.cli.Launcher - $> nextflow run task_solution.nf -profile singularity
+Sep-16 11:26:14.588 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.6
+Sep-16 11:26:14.655 [main] INFO  nextflow.cli.CmdRun - Launching `task_solution.nf` [desperate_fermat] - revision: 117d7ad69f
+Sep-16 11:26:14.879 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/cq/.nextflow/plugins
+Sep-16 11:26:14.885 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Sep-16 11:26:14.929 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Sep-16 11:26:14.932 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Sep-16 11:26:14.942 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Sep-16 11:26:14.978 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Sep-16 11:26:15.166 [main] DEBUG nextflow.Session - Session uuid: a4a20000-ee83-4a17-b4ad-7a2251b6e9e0
+Sep-16 11:26:15.166 [main] DEBUG nextflow.Session - Run name: desperate_fermat
+Sep-16 11:26:15.171 [main] DEBUG nextflow.Session - Executor pool size: 4
+Sep-16 11:26:15.301 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.6 build 5660
+  Created: 21-12-2021 16:55 UTC (17:55 CEST)
+  System: Linux 5.15.0-46-generic
+  Runtime: Groovy 3.0.9 on OpenJDK 64-Bit Server VM 11.0.16+8-post-Ubuntu-0ubuntu120.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 10756@bioinfobox [127.0.1.1]
+  CPUs: 4 - Mem: 1.9 GB (205.3 MB) - Swap: 923.3 MB (520.6 MB)
+Sep-16 11:26:15.372 [main] DEBUG nextflow.Session - Work-dir: /home/cq/nextflow_example/NGS_LEKs/work [ext2/ext3]
+Sep-16 11:26:15.373 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/cq/nextflow_example/NGS_LEKs/bin
+Sep-16 11:26:15.395 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Sep-16 11:26:15.431 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Sep-16 11:26:15.522 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Sep-16 11:26:15.752 [main] DEBUG nextflow.Session - Session start invoked
+Sep-16 11:26:18.620 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Sep-16 11:26:18.981 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 11:26:18.981 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 11:26:19.001 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Sep-16 11:26:19.014 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=1.9 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Sep-16 11:26:19.092 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Sep-16 11:26:19.340 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 11:26:19.340 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 11:26:19.357 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 11:26:19.357 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 11:26:19.366 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 11:26:19.366 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 11:26:19.427 [main] DEBUG nextflow.Session - Session aborted -- Cause: Missing process or function with name 'trimal' -- Did you mean 'trimAl' instead?
+Sep-16 11:26:19.512 [main] ERROR nextflow.cli.Launcher - @unknown
+nextflow.exception.MissingProcessException: Missing process or function with name 'trimal' -- Did you mean 'trimAl' instead?
+	at nextflow.script.WorkflowDef.run(WorkflowDef.groovy:173)
+	at nextflow.script.BindableDef.invoke_a(BindableDef.groovy:52)
+	at nextflow.script.ChainableDef$invoke_a.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at nextflow.script.BaseScript.runDsl2(BaseScript.groovy:191)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:200)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:221)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:212)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:120)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:308)
+	at nextflow.cli.Launcher.run(Launcher.groovy:480)
+	at nextflow.cli.Launcher.main(Launcher.groovy:639)
+Caused by: groovy.lang.MissingMethodException: No signature of method: nextflow.script.WorkflowBinding.trimal() is applicable for argument types: () values: []
+Possible solutions: stream(), println(), tap(groovy.lang.Closure), print(java.io.PrintWriter), print(java.lang.Object), println(java.io.PrintWriter)
+	at nextflow.script.WorkflowBinding.invokeMethod(WorkflowBinding.groovy:102)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeOnDelegationObjects(ClosureMetaClass.java:408)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:350)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at Script_5ee7b503$_runScript_closure6$_closure19.doCall(Script_5ee7b503:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:274)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at groovy.lang.Closure.call(Closure.java:406)
+	at nextflow.script.WorkflowDef.run0(WorkflowDef.groovy:186)
+	at nextflow.script.WorkflowDef.run(WorkflowDef.groovy:170)
+	... 13 common frames omitted

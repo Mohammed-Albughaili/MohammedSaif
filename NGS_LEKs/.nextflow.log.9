@@ -1,0 +1,77 @@
+Sep-16 11:15:05.152 [main] DEBUG nextflow.cli.Launcher - $> nextflow run task_solution.nf -profile singularity
+Sep-16 11:15:05.573 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.6
+Sep-16 11:15:05.694 [main] INFO  nextflow.cli.CmdRun - Launching `task_solution.nf` [high_leavitt] - revision: d546255f8d
+Sep-16 11:15:06.009 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/cq/.nextflow/plugins
+Sep-16 11:15:06.021 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Sep-16 11:15:06.087 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Sep-16 11:15:06.092 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Sep-16 11:15:06.102 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Sep-16 11:15:06.134 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Sep-16 11:15:06.353 [main] DEBUG nextflow.Session - Session uuid: b742a2c5-f4dd-4285-8654-b28383f466cb
+Sep-16 11:15:06.354 [main] DEBUG nextflow.Session - Run name: high_leavitt
+Sep-16 11:15:06.361 [main] DEBUG nextflow.Session - Executor pool size: 4
+Sep-16 11:15:06.507 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.6 build 5660
+  Created: 21-12-2021 16:55 UTC (17:55 CEST)
+  System: Linux 5.15.0-46-generic
+  Runtime: Groovy 3.0.9 on OpenJDK 64-Bit Server VM 11.0.16+8-post-Ubuntu-0ubuntu120.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 9192@bioinfobox [127.0.1.1]
+  CPUs: 4 - Mem: 1.9 GB (226.1 MB) - Swap: 923.3 MB (519.6 MB)
+Sep-16 11:15:06.619 [main] DEBUG nextflow.Session - Work-dir: /home/cq/nextflow_example/NGS_LEKs/work [ext2/ext3]
+Sep-16 11:15:06.620 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/cq/nextflow_example/NGS_LEKs/bin
+Sep-16 11:15:06.643 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Sep-16 11:15:06.676 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Sep-16 11:15:06.836 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Sep-16 11:15:07.103 [main] DEBUG nextflow.Session - Session start invoked
+Sep-16 11:15:10.275 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Sep-16 11:15:10.677 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 11:15:10.677 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 11:15:10.689 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Sep-16 11:15:10.700 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=1.9 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Sep-16 11:15:10.795 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Sep-16 11:15:11.125 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 11:15:11.126 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 11:15:11.151 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 11:15:11.151 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 11:15:11.171 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Sep-16 11:15:11.171 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Sep-16 11:15:11.189 [main] DEBUG nextflow.Session - Session aborted -- Cause: No such property: alignfastafile for class: nextflow.script.WorkflowBinding
+Sep-16 11:15:11.327 [main] ERROR nextflow.cli.Launcher - @unknown
+groovy.lang.MissingPropertyException: No such property: alignfastafile for class: nextflow.script.WorkflowBinding
+	at groovy.lang.Binding.getVariable(Binding.java:61)
+	at nextflow.script.WorkflowBinding.getVariable(WorkflowBinding.groovy:132)
+	at groovy.lang.Binding.getProperty(Binding.java:116)
+	at nextflow.script.WorkflowBinding.getProperty(WorkflowBinding.groovy:121)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:194)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:320)
+	at groovy.lang.Closure.getPropertyDelegateFirst(Closure.java:310)
+	at groovy.lang.Closure.getProperty(Closure.java:296)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:341)
+	at Script_b97c3090$_runScript_closure6$_closure19.doCall(Script_b97c3090:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:274)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at groovy.lang.Closure.call(Closure.java:406)
+	at nextflow.script.WorkflowDef.run0(WorkflowDef.groovy:186)
+	at nextflow.script.WorkflowDef.run(WorkflowDef.groovy:170)
+	at nextflow.script.BindableDef.invoke_a(BindableDef.groovy:52)
+	at nextflow.script.ChainableDef$invoke_a.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at nextflow.script.BaseScript.runDsl2(BaseScript.groovy:191)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:200)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:221)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:212)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:120)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:308)
+	at nextflow.cli.Launcher.run(Launcher.groovy:480)
+	at nextflow.cli.Launcher.main(Launcher.groovy:639)
